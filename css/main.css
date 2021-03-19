@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/*h1{
+	border:solid;
+	margin: 50px 40px 30px 20px;
+}*/
+@font-face{
+	font-family: Chernobyl;
+	src: url(../fonts/Chernobyl.otf);
+}
+
+body{
+	background-color: #f0c7ff;
+	font-family: Chernobyl;
+}
+main{
+	width: 70%;
+	padding: 55px;
+	margin: auto;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 0 10px 1px rgba(0,0,0,0.2);
+}
+.photo{
+	width: calc(50% - 40px);
+	height: calc((35vw - 40px)/16*9);
+	margin: 10px;
+	background-color: silver;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.5s ease;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,.2);
+}
+.photo:hover{
+	transform: rotate(3deg) scale(1.07);
+	box-shadow: 0 0 20px 1px rgba(0,0,0,0.4);
+}
+h1{
+	width: 100%;
+	text-align: center;
+	font-size:48px;
+}
+.photo1{
+	background-image: url(../img/awooga.jfif);
+}
+.photo2{
+	background-image: url(../img/bitch.jpg);
+}
+.photo3{
+	background-image: url(../img/chika.jpg);
+}
+.photo4{
+	background-image: url(../img/frog.jpg);
+}
+.photo5{
+	background-image: url(../img/funnehcat.jpg);
+}
+.photo6{
+	background-image: url(../img/giphy.gif);
+}
+.photo7{
+	background-image: url(../img/hands.jpg);
+}
+.photo8{
+	background-image: url(../img/img1.jfif);
+}
+.photo9{
+	background-image: url(../img/img2.jpeg);
+}
+.photo10{
+	background-image: url(../img/meow.jfif);
+}
+.photo11{
+	background-image: url(../img/pastacarbanana.jpg);
+}
+.photo12{
+	background-image: url(../img/tsumha.jpg);
+}
